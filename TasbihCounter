@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Tasbih Counter dan Kumpulan Doa" />
+    <meta name="dicoding:email" content="fahri.lafa@gmail.com"/>
+    <meta charset="utf-8">
+    <title>Tasbih Counter dan Kumpulan Doa Barokah</title>   
+
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+</head>
+
+<body onload="test()" id="main">
+    <!-- <audio loop="loop" autoplay="true" src="./lagu/background1.mp3" ></audio> -->
+    <div id="pageawal" align="center" class="page">
+        
+        <div class="gambaratas">
+            <img src="./images/logo.png" width="330px" height="260px" style="position:relative;">
+        </div>
+        <div class="gambarbawah" align="center">
+            <ul class="list" align="center">
+                <li><a href="play.html"><button id ="kriteria" class="btn-awal">Index Doa</button></a></li>
+                <li><a href="play2.html"><button id ="kriteria" class="btn-awal">Counter</button></a></li>
+                <li id ="tentang"><button id = "tentang" class="btn-awal">Tentang</button></li>
+                <li><a href=""><button id = "keluar" class="btn-awal">Keluar</button></a></li>
+            </ul>
+        </div>
+    </div> 
+    
+    <div id="pagetentang" class="page" display="none" >
+        <h2 style="font-size:20px;padding:30px 0px; color:#e72146;" align="center"><b>Tasbih Counter dan Kumpulan Doa Barokah</b></h2>
+        <div style="font-size:18px; padding:20px 10px; color:#e72146">
+            <ul style="list-style-type:none;">
+                <li style="margin-bottom:10px;">Version : 1.0.0</li>
+                <li style="margin-bottom:10px;">By : Muhyiddin Ubaidillah</li>
+                
+                <li style="font-size: 18px;">Images:</li>
+                <li style="margin-bottom:10px; font-size: 13px;">(https:www.shutterstock.com)</li>
+                <li>Refrence:</li>
+                <li style="margin-bottom:10px;font-size: 15px;">(http://www.ayeey.com)</li>
+                 <li style="margin-bottom:10px;font-size: 15px;">(rijalhabibulloh,sepucuk surat)</li>
+                
+            </ul>
+        </div>
+    </div>  
+    
+    
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script> 
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Memulai Permainan" />
+    
+	<style>
+		ul.list{
+			list-style-type:none;
+			width:100%;
+			margin:0;
+			padding:0;
+		}
+		
+		li.left{
+			width:45%;
+			float:left;
+		}
+		
+		li.right{
+			width:45%;
+			float:right;
+		}
+		
+		div.choice{
+			margin:0px;
+			height:30%;
+			width:100%;
+		}		
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+ <!-- <audio src="./lagu/background.mp3" autoplay="true" loop="loop"  ></audio> -->
+<body id="permainan">
+<div id="pagekriteria" align="center" class="page">
+	<div style="widht:100%; margin-top:0px; margin-bottom:30px;">
+		<p style="margin-top:8px;font-size:25px; color:#62c61f;">Pilih DOA</p>
+	</div>
+
+<div id="dropdown-0">
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    PILIHAN 1..
+    <span class="caret"></span>
+  </button>
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li style=""><a href="./doa/doa1.html">Doa Sebelum Tidur</a></li>
+    <li><a href="./doa/doa2.html">Doa Bangun Tidur</a></li>
+    <li><a href="./doa/doa3.html">Doa Masuk Kamar Mandi</a></li>
+    <li><a href="./doa/doa4.html">Doa Keluar Kamar Mandi</a></li>
+    <li><a href="./doa/doa6.html">Doa Berpakaian</a></li>
+    <li><a href="./doa/doa35.html">Doa Melepas pakaian</a></li>
+    <li><a href="./doa/doa7.html">Doa Bercermin</a></li>
+    <li><a href="./doa/doa8.html">Doa Sebelum Makan</a></li>
+    <li><a href="./doa/doa9.html">Doa Sesudah Makan</a></li>
+    <li><a href="./doa/doa29.html">Doa Ketika Takut dan Gelisah</a></li>
+       <li><a href="./doa/doa28.html">Doa Memohon Dipelihara dari Siksa Neraka</a></li>
+              <li><a href="./doa/doa33.html">Doa Memohon Kesembuhan Segala Penyakit</a></li>
+    
+    
+    <li role="separator" class="divider"></li>
+  </ul>
+</div>
+</div>
+
+ <br>
+ <br>
+ <br>   
+ 
+  <div id="dropdown-1">
+ <div class="dropdown"  >
+
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+     PILIHAN 2..
+     <span class="caret"></span>
+    </button>
+       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+       <li><a href="./doa/doa10.html">Doa Keluar Rumah</a></li>
+       <li><a href="./doa/doa11.html">Doa Masuk Rumah</a></li>
+       <li><a href="./doa/doa12.html">Doa Keselamatan Dunia Akhirat</a></li>
+       <li><a href="./doa/doa13.html">Doa Ketika Akan Wudhu</a></li>
+       <li><a href="./doa/doa14.html">Doa Setelah Wudhu</a></li>
+       <li><a href="./doa/doa15.html">Doa Sebelum Belajar</a></li>
+       <li><a href="./doa/doa16.html">Doa Sesudah Belajar</a></li>
+       <li><a href="./doa/doa17.html">Doa Menengok Orang Sakit</a></li>
+       <li><a href="./doa/doa18.html">Doa Ketika Bersin</a></li>
+       <li><a href="./doa/doa19.html">Doa Mendengar Orang Bersin</a></li>
+       <li><a href="./doa/doa27.html">Doa Sakit Gigi Dan Anggaota Badan</a></li>
+       <li><a href="./doa/doa26.html">Doa Saat Mimpi Buruk</a></li>
+       
+       
+       </ul>
+
+   
+    <li role="separator" class="divider"></li>
+  </ul>
+</div>
+</div>
+<br>
+<br>
+
+ <div id="dropdown-2">
+ <div class="dropdown"  >
+
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+     PILIHAN 3..
+     <span class="caret"></span>
+    </button>
+       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+       <li><a href="./doa/doa20.html">Doa Masuk Masjid</a></li>
+       <li><a href="./doa/doa21.html"> Doa Keluar Masjid</a></li>
+       <li><a href="./doa/doa22.html">Doa Minum Obat</a></li>
+       <li><a href="./doa/doa23.html">Doa Saat Badai</a></li>
+       <li><a href="./doa/doa24.html">Doa Di Pagi Hari</a></li>
+       <li><a href="./doa/doa25.html">Doa Di Sore Hari</a></li>
+       
+       <li><a href="./doa/doa30.html">Doa Ketika Turun Hujan</a></li>
+       <li><a href="./doa/doa31.html">Doa Ketika Hujan Reda</a></li>
+       <li style="font-size: 12px;" ><a  href="./doa/doa32.html">Doa Mohon Panjang Umur</a></li>
+       <li><a href="./doa/doa34.html">Doa Memohon Petunjuk</a></li>
+
+
+       
+       
+       </ul>
+
+   
+    <li role="separator" class="divider"></li>
+  </ul>
+</div>
+</div>
+	
+	
+    
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Memulai Permainan" />
+    
+	<style>
+		ul.list{
+			list-style-type:none;
+			width:100%;
+			margin:0;
+			padding:0;
+		}
+		
+		li.left{
+			width:45%;
+			float:left;
+		}
+		
+		li.right{
+			width:45%;
+			float:right;
+		}
+		
+		div.choice{
+			margin:0px;
+			height:30%;
+			width:100%;
+		}		
+	</style>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+<!-- <audio src="./lagu/background2.mp3" autoplay="true" loop="loop"  ></audio> -->
+<body id="permainan">
+<div id="pagekriteria" align="center" class="page">
+	<div style="widht:100%; margin-top:0px; margin-bottom:30px;">
+		<p style="margin-top:8px;font-size:25px; color:#62c61f;">Pilih Bacaan Dzikir</p>
+	</div>
+
+<div id="indexdzikir">
+
+    <li ><a href="./dzikir/dzikir1.html">ASTAGHFIRULLAHAL 'ADHIIM</a></li>
+    <li><a href="./dzikir/dzikir20.html">SUBHANALLOH </a></li>
+    <li><a href="./dzikir/dzikir17.html">ALHAMDULILLAH </a></li>
+    <li><a href="./dzikir/dzikir18.html">ALLOHUAKBAR </a></li>
+    <li><a href="./dzikir/dzikir19.html">MASYAALLAH </a></li>
+    <li><a href="./dzikir/dzikir13.html">YAA BADII'U </a></li>
+    <li><a href="./dzikir/dzikir10.html">YAA LATHIIF</a></li>
+    <li><a href="./dzikir/dzikir2.html">LAA HAULA WA LAA</a></li>
+    <li><a href="./dzikir/dzikir4.html">LAA ILAAHA ILLAA ANTA</a></li>
+    <li><a href="./dzikir/dzikir5.html">YAA ALLAHU YAA QADIIM</a></li>
+    <li><a href="./dzikir/dzikir15.html">HALHAMDULILLALLADZII</a></li>
+    <li><a href="./dzikir/dzikir9.html">YAA HAYYU YAA QAYYUUMU</a></li>
+    <li><a href="./dzikir/dzikir6.html">YAA SAMII'U YAA BASHIIR</a></li>
+    <li><a href="./dzikir/dzikir7.html">YAA MUBDI'U YAA KHAALIQ</a></li>
+    <li><a href="./dzikir/dzikir16.html">SA-ALTUKA YAA GHAFFAARU </a></li>
+    <li><a href="./dzikir/dzikir3.html">ALLAHUMMA SHALLII 'ALAA</a></li>
+    <li><a href="./dzikir/dzikir8.html">YAA HAFIIZHU YAA NASHIIRU</a></li>
+    <li><a href="./dzikir/dzikir14.html">HASBUNALLAHU WA NI'MAL WAKIIL</a></li>
+    <li><a style="font-size: 12px;"  href="./dzikir/dzikir11.html">ASTAGHFIRULLAHAL'AZHIIMA INNAHU KAANA</a></li>
+    <li><a style="font-size: 12px;"  href="./dzikir/dzikir12.html">ALLAHUMMA SHALLII 'ALAA SAYYIDINAA MUHAMMAD</a></li>
+    
+    
+
+    
+</div>
+
+<div id="indexdzikir2">
+    
+    
+</div>
+
+ 
+	
+	
+    
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
